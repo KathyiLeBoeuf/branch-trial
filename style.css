@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+/* root font size declared below to allow use of rem's  62.5% = 10px*/
+html{
+    font-size: 62.5%;
+}
+/* BELOW, basic body attributes used throughout, */
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #777;
+    /* gives a white border around the entire page */
+    padding:3rem;
+    box-sizing: border-box;
+}
+/* ABOVE, basic body attributes used throughout, */
+.header{
+	background-color: aquamarine;
+	height: 15rem;
+	border-bottom: 1rem dashed purple;
+}
+h1 {
+	color: black;
+	text-align: center;
+	font-size: 8rem;
+}
+/*=====TITLE==========================*/
+/* positioning */
+/* display + box model */
+/* color */
+/* text */
+/* other */
