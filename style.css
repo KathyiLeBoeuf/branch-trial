@@ -35,6 +35,16 @@ h2 {
     color: #eee;
     text-align: center;
 }
+h3{
+    font-size: 2rem;
+    color: #777777;
+    background-color: #eee;
+    text-align: left;
+}
+aside {
+    background-color: paleturquoise;
+    width: 30%;
+}
 .footer {
     height: 8rem;
     background-color: #777;
